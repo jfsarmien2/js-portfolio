@@ -1,5 +1,4 @@
 import LinkedinIcon from '@/components/ui/icons/linkedin.astro'
-import XIcon from '@/components/ui/icons/x.astro'
 import GithubIcon from '@/components/ui/icons/github.astro'
 
 export const NAV_LINKS = [
@@ -7,10 +6,6 @@ export const NAV_LINKS = [
     label: "Home",
     href: "/",
   },
-  // {
-  //   label: "Articles",
-  //   href: "/articles",
-  // },
   {
     label: "Projects",
     href: "/projects",
@@ -21,16 +16,11 @@ export const SOCIAL_LINKS = [
   {
     name: 'Github',
     icon: GithubIcon,
-    url: "https://github.com/Louai-Zokerburg",
+    url: "https://github.com/jfsarmien2",
   },
   {
     name: 'Linkedin',
     icon: LinkedinIcon,
-    url: "https://www.linkedin.com/in/louai-boumediene-018919262/",
-  },
-  {
-    name: 'X',
-    icon: XIcon,
-    url: "https://x.com/Louai_Dourov",
+    url: "https://www.linkedin.com/in/john-sarmiento-192476345/",
   },
 ];

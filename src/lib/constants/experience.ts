@@ -6,7 +6,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Front-end Developer",
-        year: "10.2020 - 6.2024",
+        year: "10.2020 - 06.2024",
         description: `
         - ♦ Developed and maintained web application enabling partners to automate product updates,
             pricing, schedules, and transaction managements.
@@ -26,7 +26,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Quality Assurance Specialist",
-        year: "6.2024 - 02.2025",
+        year: "06.2024 - 02.2025",
         description: `
         - ♦ Responsible in checking the integrity and completeness of source materials.
         - ♦ Paying close attention to the content processing methods.
@@ -65,7 +65,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Bachelor of Science in Information Technology | Negros Oriental State University",
-        year: "09.2022 - 07.2025",
+        year: "06.2015 - 03.2019",
         description: ``,
         skills: [],
       },
