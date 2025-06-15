@@ -11,21 +11,21 @@ permissions:
 
 jobs:
   deploy:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Clone the repo
-      uses: actions/checkout@v4
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repo
+        uses: actions/checkout@v4
 
-    - name: Install dependencies
-      run: pnpm ci
+      - name: Install dependencies
+        run: pnpm ci
 
-    - name: Build
-      run: pnpm run build
+      - name: Build
+        run: pnpm run build
 
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./dist
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
-    - name: Deploy to pages
-      uses: actions/deploy-pages@v4
+      - name: Deploy to pages
+        uses: actions/deploy-pages@v4
