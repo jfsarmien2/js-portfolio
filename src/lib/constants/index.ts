@@ -4,11 +4,11 @@ import GithubIcon from '@/components/ui/icons/github.astro'
 export const NAV_LINKS = [
   {
     label: "Home",
-    href: "/",
+    href: `${import.meta.env.BASE_URL}`,
   },
   {
     label: "Projects",
-    href: "/projects",
+    href: `${import.meta.env.BASE_URL}/projects`,
   },
 ] as const;
 
