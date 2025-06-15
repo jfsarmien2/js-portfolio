@@ -4,6 +4,6 @@ export const SITE = {
   profile: "",
   desc: "Personal Portfolio Website",
   title: "John Sarmiento",
-  ogImage: '/og-image.jpg',
+  ogImage: `${import.meta.env.BASE_URL}/og-image.jpg`,
   postPerPage: 6,
 } as const;
