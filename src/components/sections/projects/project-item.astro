@@ -13,7 +13,8 @@ const { project } = Astro.props;
 ---
 
 <a
-  href={`/projects/${project.id}`}
+  href={`${project.data.sourceCode}`}
+  target="_blank"
   class="flex cursor-pointer items-center not-last:border-b"
 >
   <FolderCodeIcon className="mx-4.5 size-5 shrink-0 text-muted-foreground" />

@@ -1,25 +1,19 @@
 import {
-  Docker,
   Git,
-  MongoDB,
   NextJs,
-  NodeJs,
-  Python,
   React,
-  VueJs,
-  Pinia,
   ReactQuery,
   Redux,
   TailwindCSS,
   TypeScript,
   Supabase,
-  ExpressJsDark,
   JavaScript,
   HTML5,
   CSS3,
-  PHP,
+  VisualStudioCode,
   Prisma,
-  Firebase
+  Firebase,
+  Postman,
 } from "developer-icons";
 
 import StyledcomponentIcon from "@/components/ui/icons/styledcomponent.astro";
@@ -47,16 +41,6 @@ export const TECH_STACK = [
     href: "https://www.typescriptlang.org/",
     icon: TypeScript,
   },
-  {
-    title: "Python",
-    href: "https://www.python.org/",
-    icon: Python,
-  },
-  {
-    title: "PHP",
-    href: "https://www.php.net/",
-    icon: PHP,
-  },
 
   // Frontend Technologies
   {
@@ -70,11 +54,6 @@ export const TECH_STACK = [
     icon: NextJs,
   },
   {
-    title: "Vue.js",
-    href: "https://vuejs.org/",
-    icon: VueJs,
-  },
-  {
     title: "Redux Toolkit",
     href: "https://redux-toolkit.js.org/",
     icon: Redux,
@@ -83,11 +62,6 @@ export const TECH_STACK = [
     title: "React Query",
     href: "https://tanstack.com/query/latest",
     icon: ReactQuery,
-  },
-  {
-    title: "Pinia",
-    href: "https://pinia.vuejs.org/",
-    icon: Pinia
   },
   {
     title: "Tailwind CSS",
@@ -102,23 +76,23 @@ export const TECH_STACK = [
 
 
   // Backend Technologies
-  {
-    title: "Node.js",
-    href: "https://nodejs.org/",
-    icon: NodeJs,
-  },
-  {
-    title: "Express.js",
-    href: "https://expressjs.com/",
-    icon: ExpressJsDark,
-  },
+  // {
+  //   title: "Node.js",
+  //   href: "https://nodejs.org/",
+  //   icon: NodeJs,
+  // },
+  // {
+  //   title: "Express.js",
+  //   href: "https://expressjs.com/",
+  //   icon: ExpressJsDark,
+  // },
 
-  // Databases & Caching
-  {
-    title: "MongoDB",
-    href: "https://www.mongodb.com/",
-    icon: MongoDB,
-  },
+  // Databases
+  // {
+  //   title: "MongoDB",
+  //   href: "https://www.mongodb.com/",
+  //   icon: MongoDB,
+  // },
   {
     title: "Supabase",
     href: "https://supabase.com/",
@@ -135,17 +109,27 @@ export const TECH_STACK = [
     icon: Prisma,
   },
 
-  // DevOps & Development Tools
-  {
-    title: "Docker",
-    href: "https://www.docker.com/",
-    icon: Docker,
-  },
+  // Development Tools
+  // {
+  //   title: "Docker",
+  //   href: "https://www.docker.com/",
+  //   icon: Docker,
+  // },
   {
     title: "Git",
     href: "https://git-scm.com/",
     icon: Git,
   },
+  {
+    title: "VS Code",
+    href: "https://code.visualstudio.com/",
+    icon: VisualStudioCode
+  },
+  {
+    title: "Postman",
+    href: "https://www.postman.com/",
+    icon: Postman
+  }
 
 
 
