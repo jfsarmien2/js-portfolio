@@ -1,6 +1,6 @@
 export const PROFILE_INFO = {
   role: 'Web Developer',
-  logo: 'John.FS',
+  logo: `${import.meta.env.BASE_URL}/logo.png`,
   slogan: 'Code, Learn, Evolve...',
   displayName: "John Sarmiento",
   email: "john.sarmiento452@gmail.com",
