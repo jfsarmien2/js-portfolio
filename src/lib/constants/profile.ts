@@ -5,9 +5,7 @@ export const PROFILE_INFO = {
   displayName: "John Sarmiento",
   email: "john.sarmiento452@gmail.com",
   about: `
-A web developer with a basic understanding of front-end and back-end technologies. I am eager to learn, grow,
-and improve my skills through hands-on experience and collaboration. I'm passionate about building user friendly
-websites and open to new challenges and learning opportunities. 
+Web developer focused on integrating RESTful and third-party APIs into modern front-end applications. Experienced at connecting design and development, with a passion for creating scalable and maintainable solutions that meet business needs. Proficient in modern JavaScript frameworks and tools. Committed to ongoing learning, teamwork, and solving real-world problems using technology.
 `,
 } as const;
 
